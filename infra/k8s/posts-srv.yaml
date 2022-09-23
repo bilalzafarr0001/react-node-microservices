@@ -6,8 +6,8 @@ spec:
   type: NodePort
   selector:
      app: posts
-  posts:
+  ports:
     - name: posts
-    protocol : TCP
-    port: 4000
-    targetPort: 4000   
+      protocol : TCP
+      port: 4000
+      targetPort: 4000   
