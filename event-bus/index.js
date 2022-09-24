@@ -23,7 +23,7 @@ console.log('before')
   axios.post("http://query-srv:4002/events", event).catch((err) => {
     console.log(err.message);
   });
-  axios.post("http://moderation-src:4003/events", event).catch((err) => {
+  axios.post("http://moderation-srv:4003/events", event).catch((err) => {
     console.log(err.message);
   });
   console.log('afterr ')
